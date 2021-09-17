@@ -45,3 +45,21 @@
    text-decoration: underline;
    margin-bottom: 0.4rem;
 }
+
+@media(max-width: 900px) {
+   .card {
+      padding: 1rem;
+      font-size: 0.9rem;
+   }
+
+   .card img {
+      width: 160px;
+   }
+
+   .card:nth-child(odd) {
+      transform: rotate(0);
+   }
+   .card:nth-child(even) {
+      transform: rotate(0);
+   }
+}
