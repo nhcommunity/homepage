@@ -175,10 +175,6 @@ li {
 }
 
 @media (max-width: 870px) {
-  /* #moderators-section {
-      margin: 0 1rem;
-   } */
-
   .moderators {
     grid-template-columns: 1fr;
   }
