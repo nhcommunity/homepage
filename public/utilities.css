@@ -1,3 +1,12 @@
+.social {
+   display: flex;
+   margin-top: 1.5rem;
+}
+
+.social a {
+   margin-right: 1.5rem;
+}
+
 .card {
    display: flex;
    align-items: center;
@@ -9,17 +18,19 @@
 }
 
 .card:nth-child(2) {
-   background: linear-gradient(to right, var(--dark-purple), rgb(47, 47, 83));
+   background: var(--dark-purple);
 }
 
 .card:nth-child(odd) {
    border-top-left-radius: 10px;
    border-bottom-right-radius: 10px;
+   transform: rotate(-2deg);
 }
 
 .card:nth-child(even) {
    border-top-right-radius: 10px;
    border-bottom-left-radius: 10px;
+   transform: rotate(-2deg);
 }
 
 .card img {
@@ -32,5 +43,5 @@
    color: var(--bone);
    font-weight: 800;
    text-decoration: underline;
+   margin-bottom: 0.4rem;
 }
-
