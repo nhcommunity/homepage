@@ -12,6 +12,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 body {
   background-color: var(--main-bg);
@@ -30,6 +31,9 @@ h2 {
   color: white;
   font-size: 3rem;
   align-items: center;
+}
+h2::selection {
+   background-color: var(--dark-purple);
 }
 ul {
   list-style-type: none;
@@ -126,9 +130,34 @@ li {
   font-family: monospace;
   font-size: 1rem;
 }
-#mods {
-  text-align: center;
+
+#moderators-section {
+   max-width: 1100px;
+   margin: 0 auto 1rem;
+   padding: 1.5rem;
+   display: flex;
+   flex-direction: column;
 }
+
+.moderators-header {
+   text-align: center;
+   margin: 1.5rem 0 3rem;
+}
+
+#moderators-section p {
+   font-family: monospace, sans-serif;
+   margin: 0 2rem;
+   max-width: 600px;
+   margin: 0 auto;
+   font-size: 1.1rem;
+}
+
+.moderators {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 1.5rem;
+}
+
 #calender {
   padding: 20px;
   text-decoration: underline;
