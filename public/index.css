@@ -176,6 +176,12 @@ li {
 
 @media (max-width: 870px) {
   .moderators {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .moderators {
     grid-template-columns: 1fr;
   }
 }
