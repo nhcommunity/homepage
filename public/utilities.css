@@ -15,19 +15,19 @@
    text-align: center;
    padding: 1rem;
    transition: 0.3s ease-in-out;
-   background: #F5F5F5;
+   background: var(--bone);
 }
 
 .card img {
    width: 100px;
    border-radius: 50%;
-   border: 5px solid white;
+   border: 5px solid #ebebeb;
 }
 
 .card h3 {
    color: var(--main-bg);
    font-weight: 400;
-   margin: 1rem;
+   margin: 1rem 0 0.5rem;
 }
 .card h4 {
    color: var(--main-bg);
