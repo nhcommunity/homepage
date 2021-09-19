@@ -1,42 +1,42 @@
 <style>
-  .container1{
+  .container1 {
     width: 450px;
     height: 300px;
-    background: linear-gradient(35deg, #511E6A, #9C138F, #B695CE);
+    background: linear-gradient(35deg, #511e6a, #9c138f, #b695ce);
     border-radius: 15px;
   }
-  .container2{
+  .container2 {
     text-align: center;
     background-color: rgba(81, 30, 106, 0.7);
     border-radius: 15px;
     margin: 10px;
     padding: 5px;
     font-size: 27px;
-    color: #E3DFD1;
+    color: #e3dfd1;
   }
 
-  .container3{
+  .container3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 100px 50px 100px;
-    grid-template-areas: 
-    "content1 image"
-    "content2 image"
-    "content3 content5"
-    "content4 content6"
-    }
+    grid-template-areas:
+      "content1 image"
+      "content2 image"
+      "content3 content5"
+      "content4 content6";
+  }
 
-  .item1{
-    background-color: #511E6A;
+  .item1 {
+    background-color: #511e6a;
     grid-area: content1;
     margin-left: 10px;
     border-radius: 6px;
     padding-left: 6px;
     text-decoration: underline;
-    color: #E3DFD1;
+    color: #e3dfd1;
   }
 
-  .image{
+  .image {
     width: 125px;
     height: 125px;
     border-radius: 32%;
@@ -45,13 +45,13 @@
   }
 
   .thin-purple-border {
-    border-color: #E3DFD1;
+    border-color: #e3dfd1;
     border-width: 2px;
     border-style: solid;
   }
 
-  .item3{
-    background-color: #511E6A;
+  .item3 {
+    background-color: #511e6a;
     grid-area: content3;
     margin-top: -10px;
     margin-left: 10px;
@@ -59,75 +59,71 @@
     border-radius: 6px;
     padding-left: 6px;
     text-decoration: underline;
-    color: #E3DFD1;
+    color: #e3dfd1;
   }
 
-  .item5{
-    background-color: #511E6A;
+  .item5 {
+    background-color: #511e6a;
     grid-area: content5;
     margin-top: -10px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     margin-left: 5px;
     margin-right: 8px;
     border-radius: 6px;
     padding-left: 6px;
     text-decoration: underline;
-    color: #E3DFD1;
+    color: #e3dfd1;
   }
-.List1{
-  grid-area: content2;
-  margin-top: -10px;
-  margin-left: -10px;
-  font-style: italic;
-  color: #E3DFD1;
-}
-.List2{
-  grid-area: content4;
-  margin-top: -30px;
-  margin-left: -10px;
-  font-style: italic;
-  color: #E3DFD1;
-}
-.List3{
-  grid-area: content6;
-  margin-top: -30px;
-  margin-left: -10px;
-  font-style: italic;
-  color: #E3DFD1; 
-}
+  .List1 {
+    grid-area: content2;
+    margin-top: -10px;
+    margin-left: -10px;
+    font-style: italic;
+    color: #e3dfd1;
+  }
+  .List2 {
+    grid-area: content4;
+    margin-top: -30px;
+    margin-left: -10px;
+    font-style: italic;
+    color: #e3dfd1;
+  }
+  .List3 {
+    grid-area: content6;
+    margin-top: -30px;
+    margin-left: -10px;
+    font-style: italic;
+    color: #e3dfd1;
+  }
 </style>
 
 <div class="container1">
-  <h1 class="container2"> Mod Name Here </h1>
+  <h1 class="container2">Mod Name Here</h1>
   <div class="container3">
-    
-  <p class="item1"> 
-  Languages:
-  </p>
-  <ul class="list1">
-  <li> HTML</li>
-  <li> C++ </li>
-  <li> Java</li>
-  <li> </li>
-</ul>
-  
-<img src="">
+    <p class="item1">Languages:</p>
+    <ul class="list1">
+      <li>HTML</li>
+      <li>C++</li>
+      <li>Java</li>
+      <li></li>
+    </ul>
 
-  <p class="item3">
-  Projects:
-  </p>
-<ul class="list2">
-  <li> </li>
-  <li> </li>
-  <li> </li>
-  <li> </li></ul>
+    <img src="" />
 
-  <p class="item5">
-  Other Projects:
-  </p><ul class="list3">
-  <li> </li>
-  <li> </li>
-  <li> </li>
-  <li> </li></ul>
+    <p class="item3">Projects:</p>
+    <ul class="list2">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+    <p class="item5">Other Projects:</p>
+    <ul class="list3">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
   </div>
 </div>
