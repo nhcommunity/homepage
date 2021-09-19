@@ -15,7 +15,7 @@
    text-align: center;
    padding: 1rem;
    transition: 0.3s ease-in-out;
-   background: #fff;
+   background: var(--wisteria);
 }
 
 .card:hover {
