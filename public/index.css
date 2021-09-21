@@ -73,7 +73,7 @@ li {
 
 #welcome {
   display: flex;
-  height: 97.5vh;
+  height: 100vh;
   font-size: 27px;
   justify-content: center;
   align-items: center;
