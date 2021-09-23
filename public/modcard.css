@@ -1,0 +1,125 @@
+.modcard-wrapper {
+  position: fixed;
+  top: calc(50vh - 150px);
+  left: calc(50vw - 225px);
+  display: none;
+  z-index: 1;
+}
+
+.modcard-wrapper::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.modcard {
+  width: 450px;
+  min-height: 300px;
+  background: linear-gradient(35deg, #511e6a, #9c138f, #b695ce);
+  border-radius: 15px;
+}
+
+.modcard-name {
+  text-align: center;
+  background-color: rgba(81, 30, 106, 0.7);
+  border-radius: 15px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 27px;
+  color: #e3dfd1;
+}
+
+.modcard-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr 1fr;
+  row-gap: 20px;
+  grid-template-areas:
+    "bio image"
+    "bio image"
+    "link-title proj-title"
+    "link-list proj-list";
+}
+
+.modcard-bio {
+  background-color: #511e6a;
+  grid-area: bio;
+  margin-left: 10px;
+  border-radius: 6px;
+  padding-left: 6px;
+  color: #e3dfd1;
+}
+
+.modcard-img {
+  width: 125px;
+  height: 125px;
+  border-radius: 32%;
+  justify-self: center;
+  grid-area: image;
+}
+
+.thin-purple-border {
+  border-color: #e3dfd1;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.modcard-link-title {
+  background-color: #511e6a;
+  grid-area: link-title;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  padding-left: 6px;
+  text-decoration: underline;
+  color: #e3dfd1;
+}
+
+.modcard-proj-title {
+  background-color: #511e6a;
+  grid-area: proj-title;
+  margin-top: -10px;
+  margin-bottom: 40px;
+  margin-left: 5px;
+  margin-right: 8px;
+  border-radius: 6px;
+  padding-left: 6px;
+  text-decoration: underline;
+  color: #e3dfd1;
+}
+
+.modcard-proj-list {
+  grid-area: proj-list;
+  list-style-type: "💜 ";
+  text-align: center;
+  margin-top: -30px;
+  font-style: italic;
+  color: #e3dfd1;
+}
+
+.modcard-link-list {
+  grid-area: link-list;
+  text-align: center;
+  list-style-type: "💜 ";
+  margin-top: -30px;
+  margin-left: 10px;
+  font-style: italic;
+  color: #e3dfd1;
+}
+
+.modcard-li {
+  float: none;
+}
+
+.modcard-li > a:hover {
+    color: #511e6a;
+    background-color: #e3dfd1;
+    transition: ease-in-out 1s;
+}

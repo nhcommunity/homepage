@@ -1,0 +1,25 @@
+{
+  "name": "nhcarrigan",
+  "avatar": "https://github.com/nhcarrigan.png",
+  "bio": "This is a test!",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/nhcarrigan"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/nhcarrigan"
+    },
+    {
+      "name": "Chat",
+      "url": "https://chat.nhcarrigan.com"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Becca Lyria",
+      "url": "https://docs.beccalyria.com"
+    }
+  ]
+}
