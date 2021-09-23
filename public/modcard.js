@@ -29,6 +29,7 @@ const modcard = async (name) => {
   cardString += `
         </ul>
       </div>
+      <p class="modcard-notes">${data.notes}</p>
     </div>
     `;
 

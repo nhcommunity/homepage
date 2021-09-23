@@ -1,0 +1,22 @@
+{
+  "name": "Piyush",
+  "avatar": "https://github.com/programmer005.png",
+  "bio": "I am Piyush, A 13 year old web developer. I started doing web development in 2020, because  I was bored in lockdown. This opened a whole new world of opportunities for me, including joining the nhcommunity team.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/piyushpanchal_"
+    },
+    {
+      "name": "Blog",
+      "url": "https://techwithpiyush.vercel.app"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Blog",
+      "url": "https://github.com/Programmer005/blog"
+    }
+  ],
+  "notes": "Find me on Discord! Piyush#2857"
+}

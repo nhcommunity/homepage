@@ -123,3 +123,10 @@
     background-color: #e3dfd1;
     transition: ease-in-out 1s;
 }
+
+.modcard-notes {
+  background-color: #511e6a;
+  border-radius: 6px;
+  padding-left: 6px;
+  color: #e3dfd1;
+}
