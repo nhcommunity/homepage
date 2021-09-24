@@ -22,6 +22,7 @@
   min-height: 300px;
   background: linear-gradient(35deg, #511e6a, #9c138f, #b695ce);
   border-radius: 15px;
+  padding: 1rem;
 }
 
 .modcard-name {
@@ -53,6 +54,7 @@
   margin-left: 10px;
   border-radius: 6px;
   padding-left: 6px;
+  padding: 0.85rem;
   color: #e3dfd1;
 }
 
@@ -79,6 +81,9 @@
   border-radius: 6px;
   padding-left: 6px;
   text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #e3dfd1;
 }
 
@@ -91,6 +96,9 @@
   margin-right: 8px;
   border-radius: 6px;
   padding-left: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: underline;
   color: #e3dfd1;
 }
@@ -118,10 +126,15 @@
   float: none;
 }
 
+.modcard-li > a {
+  padding: 0.25rem;
+  margin: 0.5rem;
+}
+
 .modcard-li > a:hover {
-    color: #511e6a;
-    background-color: #e3dfd1;
-    transition: ease-in-out 1s;
+  color: #511e6a;
+  background-color: #e3dfd1;
+  transition: ease-in-out 1s;
 }
 
 .modcard-notes {
@@ -129,4 +142,7 @@
   border-radius: 6px;
   padding-left: 6px;
   color: #e3dfd1;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border-radius: 6px;
 }
