@@ -16,6 +16,7 @@
    padding: 1rem;
    transition: 0.3s ease-in-out;
    background: var(--wisteria);
+   cursor: pointer;
 }
 
 .card:hover {
