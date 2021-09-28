@@ -1,0 +1,42 @@
+{
+  "name": "David Leal",
+  "avatar": "https://github.com/Panquesito7.png",
+  "bio": "Open source maintainer/contributor 💻 C/C++ & Lua coder 👨‍💻 Known/active maintainer @TheAlgorithms, @devicons 🚂 Maintainer/creator of various @minetest mods/games ⛏",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Panquesito7"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/David_Leal_7"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/channel/UCcZmWPJygsJ_szWKwTy2wqA"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/user/Panquesito7"
+    },
+    {
+      "name": "StackOverflow",
+      "url": "https://stackoverflow.com/story/panquesito7"
+    },
+    {
+      "name": "Sponsor my work!",
+      "url": "https://github.com/sponsors/Panquesito7"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Tic Tac Toe",
+      "url": "https://github.com/Panquesito7/tic-tac-toe"
+    },
+    {
+      "name": "Minetest Cloud Items",
+      "url": "https://github.com/minetest-mods/cloud_items"
+    }
+  ],
+  "notes": "Connect with me on Discord! Panquesito7#3723"
+}
