@@ -1,0 +1,86 @@
+/* Variables */
+:root {
+  --dark-magenta: #9c138f;
+  --wisteria: #b695ce;
+  --bone: #e3dfd1;
+  --jet: #333333;
+  --purple-pizzazz: #e74bda;
+  --blue-violet-color-wheel: #511e6a;
+  --main-bg: #1b1b32;
+}
+/* Basic Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  /* Makes the anchors colour the nearest defined color */
+  color: currentColor;
+  display: block;
+}
+
+/* Start of styling */
+
+body {
+  background-color: var(--main-bg);
+  color: #aea8d3;
+  font-family: sans-serif;
+}
+
+.nav {
+  background-color: var(--main-bg);
+  box-shadow: 0 0px 10px rgba(255, 255, 255, 0.3);
+  /* Keep the navbar at the top of the page */
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5em;
+
+}
+
+.nav__ul {
+  list-style: none;
+  display: flex;
+  gap:20px;
+}
+
+.nav__ul:first-child{
+    margin-left:15px;
+}
+
+.nav a{
+    color:white;
+    font-size: 18px;
+}
+
+.nav li{
+    padding: 16px 20px;
+}
+
+.nav li:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.welcome{
+    height:100vh;
+    display: grid;
+    place-items: center;
+    background-color: #3a3240;
+}
+
+.welcome h1{
+    font-family: monospace;
+    font-size: 50px;
+}
