@@ -1,0 +1,114 @@
+.modcard-wrapper {
+    position: fixed;
+    top: calc(50vh - 300px);
+    left: calc(50vw - 225px);
+    display: none;
+    z-index: 1;
+  }
+  
+  .modcard-wrapper::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  .modcard {
+    width: 450px;
+    min-height: 300px;
+    background: linear-gradient(35deg, #511e6a, #9c138f, #b695ce);
+    border-radius: 15px;
+    padding: 1rem;
+  }
+  
+  .modcard__name {
+    text-align: center;
+    background-color: rgba(81, 30, 106, 0.7);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 27px;
+    color: #e3dfd1;
+  }
+  
+  .modcard-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    row-gap: 20px;
+    grid-template-areas:
+      "bio image"
+      "bio image"
+      "link-title proj-title"
+      "link-list proj-list";
+  }
+  
+  .modcard__bio {
+    background-color: #511e6a;
+    grid-area: bio;
+    margin-left: 10px;
+    border-radius: 6px;
+    padding-left: 6px;
+    padding: 0.85rem;
+    color: #e3dfd1;
+  }
+  
+  .modcard__image {
+    width: 125px;
+    height: 125px;
+    border-radius: 32%;
+    justify-self: center;
+    grid-area: image;
+  }
+  
+  
+  
+  .modcard__links--title {
+    background-color: #511e6a;
+    grid-area: link-title;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    padding-left: 6px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e3dfd1;
+  }
+  
+  
+  
+  .modcard-links--list {
+    grid-area: link-list;
+    text-align: center;
+    list-style-type: "💜 ";
+    margin-top: -30px;
+    margin-left: 10px;
+    font-style: italic;
+    color: #e3dfd1;
+  }
+  
+  .modcard__links--item {
+    float: none;
+  }
+  
+  .modcard__links--item > a {
+    padding: 0.25rem;
+    margin: 0.5rem;
+  }
+  
+  .modcard__links--item > a:hover {
+    color: #511e6a;
+    background-color: #e3dfd1;
+    transition: ease-in-out 1s;
+  }
+  
+  
+  
