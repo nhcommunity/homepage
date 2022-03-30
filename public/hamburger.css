@@ -26,8 +26,8 @@ body.noscroll {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 1.0625rem 1.5rem;
 }
 
@@ -43,7 +43,7 @@ body.noscroll {
   -webkit-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
   -webkit-transform-origin: 4px 1px;
-          transform-origin: 4px 1px;
+  transform-origin: 4px 1px;
 }
 
 .header_menu > span:not(:last-child) {
@@ -52,7 +52,7 @@ body.noscroll {
 
 .header_menu.open > span:first-child {
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .header_menu.open > span:nth-child(2) {
@@ -61,7 +61,7 @@ body.noscroll {
 
 .header_menu.open > span:last-child {
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .mobileMenu {
@@ -71,7 +71,7 @@ body.noscroll {
   width: calc(100% - 6rem);
   left: 50%;
   -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  transform: translate(-50%);
   background: white;
   margin-top: 1.5rem;
   padding: 1.625rem;
