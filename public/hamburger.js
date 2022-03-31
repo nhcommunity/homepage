@@ -18,4 +18,3 @@ hamburger.addEventListener('click', function () {
         hamburger.classList.remove('close');
     }
 })
-
