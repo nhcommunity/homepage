@@ -11,8 +11,14 @@
     />
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:creator" content="@nhcarrigan" />
-    <meta name="description" content="We’re a group of members committed to providing a safe, and comfortable space for anyone to try their hand at coding, and have some fun along the way." />
-    <meta property="og:image" content="https://cdn.nhcarrigan.com/content/avatars/nhcommunity.png" />
+    <meta
+      name="description"
+      content="We’re a group of members committed to providing a safe, and comfortable space for anyone to try their hand at coding, and have some fun along the way."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.nhcarrigan.com/content/avatars/nhcommunity.png"
+    />
     <meta property="og:url" content="https://community.nhcarrigan.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
@@ -22,6 +28,7 @@
     <link rel="stylesheet" href="./public/index.css" type="text/css" />
     <link rel="stylesheet" href="public/utilities.css" />
     <link rel="stylesheet" href="public/modcard.css" />
+    <link rel="stylesheet" href="/public/hamburger.css" />
     <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon" />
 
     <script
@@ -33,7 +40,7 @@
   </head>
 
   <body>
-    <ul id="nav">
+    <ul id="nav" class="hide-for-mobile">
       <li><a class="active" href="index.html">Home</a></li>
       <li><a href="#gaming">Gaming</a></li>
       <li><a href="#goals">Goals</a></li>
@@ -43,6 +50,29 @@
       <li><a href="https://www.beccalyria.com/" target="_blank">Becca</a></li>
       <li><a href="#whoisNH">About Naomi Carrigan</a></li>
     </ul>
+
+    <div class="flex">
+      <div class="hide-for-pc">
+        <img src="assets/favicon-3.png" alt="logo" class="nav-logo" />
+      </div>
+      <a id="btnHamburger" href="#" class="header_menu hide-for-pc">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+    <div class="mobileMenu hide-for-pc">
+      <a class="" href="index.html">Home</a>
+      <a href="#gaming">Gaming</a>
+      <a href="#goals">Goals</a>
+      <a href="#discussion">Discussions</a>
+      <a href="./views/calendar.html">Events</a>
+      <a href="#opening">Community</a>
+      <a href="https://www.beccalyria.com/">Becca</a>
+      <a href="#whoisNH">About Naomi Carrigan</a>
+    </div>
+
     <header id="welcome">
       <h1>Welcome to Carrigan's Community! 🔥</h1>
     </header>
@@ -59,8 +89,13 @@
           community, as well as
           <b><a href="https://www.eddiehub.org/">EddieHub</a></b> by providing
           further support to any who need it. We have a staff of moderators who
-          share this vision, come meet them <a href="https://chat.nhcarrigan.com" 
-          target="_blank" rel="noopener noreferrer">in our server</a> 
+          share this vision, come meet them
+          <a
+            href="https://chat.nhcarrigan.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >in our server</a
+          >
           and check out some of their amazing projects!
         </h3>
         <h3>
@@ -96,8 +131,8 @@
             ></b
           >, if you’re looking for help with a particular freecodecamp problem
           we have “Resources”(link), and if you have any questions with anything
-          we have a very supportive community that is happy to answer
-          any questions in our “Help”(link) section.
+          we have a very supportive community that is happy to answer any
+          questions in our “Help”(link) section.
         </p>
       </section>
 
@@ -346,5 +381,6 @@
       </div>
     </main>
     <div class="modcard-wrapper"></div>
+    <script src="/public/hamburger.js"></script>
   </body>
 </html>
