@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+	background: linear-gradient(-15deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    color: white;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+header nav a{
+    font-size: 1.8rem!important;
+}
+
+header nav ul li{
+    padding: 20px 10px!important;
+}
+
+.type{
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.typing{
+    font-size: 5rem;
+}
+
+
+content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#commnity{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#community{
+    margin:30px 0px 0px 100px;
+    font-size: 2rem;
+}
+
+#community p{
+    width: 80%;
+    text-align:justify;
+}
+
+#community h1{
+    font-size: 5rem!important;
+}
+
+@media screen and (max-width:776px){
+    .type{
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .typing{
+        font-size: 1.5rem;
+    }
+
+    header nav a{
+        font-size: 1.5rem!important;
+    }
+    #community{
+        margin:30px 0px 0px 20px;
+    }
+
+    #community h1{
+        font-size: 1.5rem!important;
+    }
+
+    #community p{
+        font-size: 1rem!important;
+    }
+}
