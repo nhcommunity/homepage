@@ -25,6 +25,7 @@ body {
   background-color: var(--main-bg);
   color: #aea8d3;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 img {
