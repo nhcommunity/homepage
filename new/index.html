@@ -29,301 +29,328 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
-
+    <link rel="stylesheet" href="hamburger.css" />
     <link rel="stylesheet" href="utilities.css" />
+
+    <!-- JS -->
     <script src="modcard.js" defer></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
     <nav id="nav" class="nav">
       <ul class="nav__ul">
         <li class="nav__li"><a href="index.html">Home</a></li>
         <li class="nav__li"><a href="#gaming">Gaming</a></li>
-        <li class="nav__li"><a href="#opening">Community</a></li>
-        <li class="nav__li"><a href="#about">About Naomi Carrigan</a></li>
-        <li class="nav__li"><a href="#team">Team</a></li>
-
-  </head>
-  <body>
-    <nav id="nav" class ="nav">
-      <ul class="nav__ul">
-        <li class="nav__li"><a href="index.html">Home</a></li>
-        <li class="nav__li"><a href="">Gaming</a></li>
-        <li class="nav__li"><a href="">Goals</a></li>
-        <li class="nav__li"><a href="">Discussion</a></li>
-        <li class="nav__li"><a href="calendar.html">Events</a></li>
-        <li class="nav__li"><a href="">Community</a></li>
-        <li class="nav__li"><a href="">Becca</a></li>
-        <li class="nav__li"><a href="">About Naomi Carrigan</a></li>
-
+        <li class="nav__li"><a href="#goals">Goals</a></li>
+        <li class="nav__li"><a href="#discussion">Discussion</a></li>
+        <li class="nav__li"><a href="#events">Events</a></li>
+        <li class="nav__li"><a href="#community">Community</a></li>
+        <li class="nav__li"><a href="https://www.beccalyria.com/">Becca</a></li>
+        <li class="nav__li"><a href="#whoisNH">About Naomi Carrigan</a></li>
       </ul>
+
+      <div class="nav__mobile">
+        <img src="assets/favicon-3.png" alt="logo" class="nav__logo" />
+        <a id="btnHamburger" href="#" class="nav__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+
+      <div class="nav__mobile--menu">
+        <a href="index.html">Home</a>
+        <a href="#gaming">Gaming</a>
+        <a href="#goals">Goals</a>
+        <a href="#discussion">Discussions</a>
+        <a href="#events">Events</a>
+        <a href="#opening">Community</a>
+        <a href="https://www.beccalyria.com/">Becca</a>
+        <a href="#whoisNH">About Naomi Carrigan</a>
+      </div>
     </nav>
 
     <header class="welcome">
-
       <h1>Welcome to Carrigans Community🔥</h1>
     </header>
-    <section class="opening" id="opening">
-      <h2>Our community🔥</h2>
-      <p class="opening__desc">
-        We're a group of members committed to providing a safe, and comfortable
-        space for anyone to try their hand at coding, and have some fun along
-        the way. As our founding member <a href="#about">nhcarrigan</a> is
-        committed to helping members of the
-        <a href="https://www.freecodecamp.org/">freecodecamp</a> community, as
-        well as <a href="https://www.eddiehub.org/">EddieHub</a> by providing
-        further support to any who need it. We have a staff of moderators who
-        share this vision, come meet them
-        <a
-          href="https://chat.nhcarrigan.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          >in our server</a
-        >
-        and check out some of their amazing projects
-      </p>
-    </section>
-    <section class="gaming" id="gaming">
-      <h2>Gaming 🕹️ 🎮 🎲</h2>
-      <p class="gaming__desc">
-        A love for gaming is something a lot of people share, and we’d love to
-        share it with you! Often playing rounds of Among us, as well as a
-        plethora of other games we are always looking to expand our community of
-        players.
-        <!--(Add screenshots of the fun times in among us, list game with shots, an opportunity for everyone to send it fun and funny screenshots of the shenanigans)
-       (link at the bottom to our calendar)-->
-      </p>
-    </section>
-    <section class="about" id="about">
-      <h2 class="about__header">Who is Naomi Carrigan?</h2>
-      <p class="about__desc">
-        I am a web developer focusing on the MEAN stack with a love for
-        TypeScript. Development is a passion of mine, which began with the
-        FreeCodeCamp curriculum on 15 April 2020. In December of 2020 I accepted
-        a position with freeCodeCamp, and have continued to learn, grow, and
-        acquire new skills. In my free time I enjoy playing a video game or
-        reading a book. I enjoy learning new skills and picking up random bits
-        of trivia. For example, did you know that an "emordnilap" is a word
-        which when reversed spells another word? I am a firm believer in
-        open-source. All of my project files are available on GitHub, and I am
-        open to Pull Requests and suggestions on all of them. If you would like
-        to contribute, you can access my GitHub profile on the "connect" page.
-      </p>
-      <img
-        src="https://cdn.nhcarrigan.com/profile-transparent.png"
-        alt="A picture of Naomi Carrigan"
-        class="about__img no-user-select"
-      />
-    </section>
-    <section class="team" id="team">
-      <h2 class="team__header">Community Team</h2>
-      <p class="team__desc">
-        These folks are the members of our core community team, who volunteer
-        their time to make sure everything runs smoothly!
-      </p>
-
-      <div class="team__managers">
-        <div class="team__card">
+    <main class="container">
+      <section class="opening" id="opening">
+        <h2>Our community🔥</h2>
+        <p>
+          We're a group of members committed to providing a safe, and
+          comfortable space for anyone to try their hand at coding, and have
+          some fun along the way. As our founding member
+          <a href="#about">nhcarrigan</a> is committed to helping members of the
+          <a href="https://www.freecodecamp.org/">freecodecamp</a> community, as
+          well as <a href="https://www.eddiehub.org/">EddieHub</a> by providing
+          further support to any who need it. We have a staff of moderators who
+          share this vision, come meet them
+          <a
+            href="https://chat.nhcarrigan.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >in our server</a
+          >
+          and check out some of their amazing projects
+        </p>
+        <p>
+          You don’t have to be interested in coding to join us, we often have
+          rounds of fun on Among Us, and talk about a variety of topics. Our
+          moderator team with nhcarrigan, work with the community to set goals
+          and provide projects that everyone can contribute to, in order to help
+          build a sense of community
+        </p>
+      </section>
+      <section class="gaming" id="gaming">
+        <h2>Gaming 🕹️ 🎮 🎲</h2>
+        <p class="gaming__desc">
+          A love for gaming is something a lot of people share, and we’d love to
+          share it with you! Often playing rounds of Among us, as well as a
+          plethora of other games we are always looking to expand our community
+          of players.
+          <!--(Add screenshots of the fun times in among us, list game with shots, an opportunity for everyone to send it fun and funny screenshots of the shenanigans)
+         (link at the bottom to our calendar)-->
+        </p>
+      </section>
+      <section id="discussion">
+        <h2>Our Discussions</h2>
+        <p>
+          <!--some links are yet to be added in this section-->
+          Welcome to our Discussion Center, before joining our community please
+          make sure you’ve read and agreed to our,<a
+            href="https://handbook.nhcarrigan.com/#/pages/rules"
+            >“Rules”</a
+          >, if you’re looking for help with a particular freecodecamp problem
+          we have “Resources”(link), and if you have any questions with anything
+          we have a very supportive community that is happy to answer any
+          questions in our “Help”(link) section.
+        </p>
+      </section>
+      <section id="goals">
+        <h2>Our Community Goals and upcoming projects</h2>
+        <p>
+          Here at the nhCommunity we like to have some fun! We are often working
+          on a handful of projects to improve our community as a whole, that
+          everyone is welcome to contribute to.
+        </p>
+      </section>
+      <section class="about" id="about">
+        <h2>Who is Naomi Carrigan?</h2>
+        <div class="about__desc">
           <img
-            src="https://github.com/nhcarrigan.png"
-            alt="A lovely picture of Naomi Carrigan"
-            class="team__card--img"
+            src="https://cdn.nhcarrigan.com/profile-transparent.png"
+            alt="A picture of Naomi Carrigan"
           />
-          <h3 class="team__card--name">nhcarrigan</h3>
-          <h4 class="team__card--role">Community Founder</h4>
+          <p>
+            I am a web developer focusing on the MEAN stack with a love for
+            TypeScript. Development is a passion of mine, which began with the
+            FreeCodeCamp curriculum on 15 April 2020. In December of 2020 I
+            accepted a position with freeCodeCamp, and have continued to learn,
+            grow, and acquire new skills. <br />
+            In my free time I enjoy playing a video game or reading a book. I
+            enjoy learning new skills and picking up random bits of trivia. For
+            example, did you know that an "emordnilap" is a word which when
+            reversed spells another word? <br />
+            I am a firm believer in open-source. All of my project files are
+            available on GitHub, and I am open to Pull Requests and suggestions
+            on all of them. If you would like to contribute, you can access my
+            GitHub profile on the "connect" page.
+          </p>
         </div>
+      </section>
+      <section class="team" id="team">
+        <h2 class="team__header">Community Team</h2>
+        <p class="team__desc">
+          These folks are the members of our core community team, who volunteer
+          their time to make sure everything runs smoothly!
+        </p>
 
-        <div class="team__card">
-          <img
-            src="https://github.com/DennaGrey.png"
-            alt="A lovely picture of Denna Grey"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">DennaGrey</h3>
-          <h4 class="team__card--role">Community Manager</h4>
-        </div>
+        <h3 class="team__title">Community Manager</h3>
+        <div class="team__members">
+          <div class="team__card">
+            <img
+              src="https://github.com/nhcarrigan.png"
+              alt="A lovely picture of Naomi Carrigan"
+            />
+            <h3>nhcarrigan</h3>
+            <h4>Community Founder</h4>
+          </div>
 
-        <div class="team__card">
-          <img
-            src="https://images-ext-2.discordapp.net/external/-5NZHIaVUESbwV0Qb4CaxpP6SfvZz408sWYDdM8_0A0/https/cdn.discordapp.com/avatars/342472606257250314/c0d17fe297a474b8063ac5a57289b7c9.webp"
-            alt="A lovely picture of Timiro"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Timiro</h3>
-          <h4 class="team__card--role">Community Manager</h4>
-        </div>
-      </div>
+          <div class="team__card">
+            <img
+              src="https://github.com/DennaGrey.png"
+              alt="A lovely picture of Denna Grey"
+            />
+            <h3>DennaGrey</h3>
+            <h4>Community Manager</h4>
+          </div>
 
-      <div class="team__devs">
-        <div class="team__card">
-          <img
-            src="https://github.com/j-dogcoder.png
-          "
-            alt="A lovely image of J-Dogcoder"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">J-Dogcoder</h3>
-          <h4 class="team__card--role">Developer</h4>
-        </div>
-
-        <div class="team__card">
-          <img
-            src="https://github.com/Kaiwalyakoparkar.png"
-            alt="A lovely image of Kaiwalyakoparkar"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Kaiwalyakoparkar</h3>
-          <h4 class="team__card--role">Developer</h4>
-        </div>
-
-        <div class="team__card">
-          <img
-            src="https://github.com/programmer005.png"
-            alt="A lovely image of Piyush"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Piyush</h3>
-          <h4 class="team__card--role">Developer</h4>
-        </div>
-      </div>
-      <div class="team__support">
-        <div class="team__card">
-          <img
-            src="https://github.com/Panquesito7.png"
-            alt="A lovely image of Panquesito"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">David Leal</h3>
-          <h4 class="team__card--role">Support</h4>
+          <div class="team__card">
+            <img
+              src="https://github.com/timiro.png"
+              alt="A lovely picture of Timiro"
+            />
+            <h3>Timiro</h3>
+            <h4>Community Manager</h4>
+          </div>
         </div>
 
-        <div class="team__card">
-          <img
-            src="https://pbs.twimg.com/profile_images/1112534068057567233/jQ5JzyZE_400x400.jpg"
-            alt="A lovely picture of Oogle"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Oogle</h3>
-          <h4 class="team__card--role">Support</h4>
+        <h3 class="team__title">Developer Team</h3>
+        <div class="team__members">
+          <div class="team__card">
+            <img
+              src="https://github.com/j-dogcoder.png
+            "
+              alt="A lovely image of J-Dogcoder"
+            />
+            <h3>J-Dogcoder</h3>
+            <h4>Developer</h4>
+          </div>
+
+          <div class="team__card">
+            <img
+              src="https://github.com/Kaiwalyakoparkar.png"
+              alt="A lovely image of Kaiwalyakoparkar"
+            />
+            <h3>Kaiwalyakoparkar</h3>
+            <h4>Developer</h4>
+          </div>
+
+          <div class="team__card">
+            <img
+              src="https://github.com/programmer005.png"
+              alt="A lovely image of Piyush"
+            />
+            <h3>Piyush</h3>
+            <h4>Developer</h4>
+          </div>
         </div>
 
-        <div class="team__card">
-          <img
-            src="https://d1aettbyeyfilo.cloudfront.net/eddiejaoude/19429387_1620601923PHeqY3nCH2.gif"
-            alt="A lovely picture of Vyvy-vi"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Vyvy-vi</h3>
-          <h4 class="team__card--role">Support</h4>
-        </div>
-      </div>
-      <div class="team__content">
-        <div class="team__card">
-          <img
-            src="https://starfazers.art/public/assets/images/avatar.png"
-            alt=" A lovely picture of Starfazers"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Starfazers</h3>
-          <h4 class="team__card--role">Artist</h4>
-        </div>
-      </div>
+        <h3 class="team__title">Support Team</h3>
+        <div class="team__members">
+          <div class="team__card">
+            <img
+              src="https://github.com/Panquesito7.png"
+              alt="A lovely image of Panquesito"
+            />
+            <h3>David Leal</h3>
+            <h4>Support</h4>
+          </div>
 
-      <div class="team__mods">
-        <div class="team__card">
-          <img
-            src="https://github.com/Akshu-on-github.png"
-            alt="A lovely picture of Akshaya Kulasekaran"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Akshaya Kulasekaran</h3>
-          <h4 class="team__card--role">Moderator</h4>
-        </div>
-        <div class="team__card">
-          <img
-            src="https://github.com/Eddiejaoude.png"
-            alt="A lovely picture of Eddie Jaoude"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Eddie Jaoude</h3>
-          <h4 class="team__card--role">Moderator</h4>
-        </div>
+          <div class="team__card">
+            <img
+              src="https://pbs.twimg.com/profile_images/1112534068057567233/jQ5JzyZE_400x400.jpg"
+              alt="A lovely picture of Oogle"
+            />
+            <h3>Oogle</h3>
+            <h4>Support</h4>
+          </div>
 
-        <div class="team__card">
-          <img
-            src="https://media.discordapp.net/attachments/831848965355208754/889237164901142608/new_discord_pfp.png"
-            alt="A lovely picture of Elois Angel"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Elois Angel | any pronouns</h3>
-          <h4 class="team__card--role">Moderator</h4>
+          <div class="team__card">
+            <img
+              src="https://d1aettbyeyfilo.cloudfront.net/eddiejaoude/19429387_1620601923PHeqY3nCH2.gif"
+              alt="A lovely picture of Vyvy-vi"
+            />
+            <h3>Vyvy-vi</h3>
+            <h4>Support</h4>
+          </div>
         </div>
-        <div class="team__card">
-          <img
-            src="https://github.com/Galahad42.png"
-            alt="A lovely picture of Galahad42"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Galahad42</h3>
-          <h4 class="team__card--role">Moderator</h4>
+        <h3 class="team__title">Content Team</h3>
+        <div class="team__members">
+          <div class="team__card">
+            <img
+              src="https://starfazers.art/public/assets/images/avatar.png"
+              alt=" A lovely picture of Starfazers"
+            />
+            <h3>Starfazers</h3>
+            <h4>Artist</h4>
+          </div>
         </div>
 
-        <div class="team__card">
-          <img
-            src="https://github.com/LandonLloyd.png"
-            alt="A lovely picture of Landon Lloyd"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Landon Lloyd</h3>
-          <h4 class="team__card--role">Moderator</h4>
-        </div>
+        <h3 class="team__title">Moderation Team</h3>
+        <div class="team__members">
+          <div class="team__card">
+            <img
+              src="https://github.com/Akshu-on-github.png"
+              alt="A lovely picture of Akshaya Kulasekaran"
+            />
+            <h3>Akshaya Kulasekaran</h3>
+            <h4>Moderator</h4>
+          </div>
+          <div class="team__card">
+            <img
+              src="https://github.com/Eddiejaoude.png"
+              alt="A lovely picture of Eddie Jaoude"
+            />
+            <h3>Eddie Jaoude</h3>
+            <h4>Moderator</h4>
+          </div>
 
-        <div class="team__card">
-          <img
-            src="https://images-ext-1.discordapp.net/external/7tJhpl_DEEDEmn1FjU_Hp86evEwOjaRXu4h5QCLI9w0/https/cdn.discordapp.com/avatars/767495367733280770/bfc0141c14fd2a1e40615d4aaaef9e86.webp"
-            alt="A lovely picture of RavenclawFander"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">RavenclawFander</h3>
-          <h4 class="team__card--role">Moderator</h4>
-        </div>
+          <div class="team__card">
+            <img
+              src="https://media.discordapp.net/attachments/831848965355208754/889237164901142608/new_discord_pfp.png"
+              alt="A lovely picture of Elois Angel"
+            />
+            <h3>Elois Angel | any pronouns</h3>
+            <h4>Moderator</h4>
+          </div>
+          <div class="team__card">
+            <img
+              src="https://github.com/Galahad42.png"
+              alt="A lovely picture of Galahad42"
+            />
+            <h3>Galahad42</h3>
+            <h4>Moderator</h4>
+          </div>
 
-        <div class="team__card" onclick="modcard('akshu')">
-          <img
-            src="https://github.com/SashoStoichkov.png"
-            alt="A lovely picture of Sasho Stoichkov"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Sasho Stoichkov</h3>
-          <h4 class="team__card--role">Moderator</h4>
-        </div>
+          <div class="team__card">
+            <img
+              src="https://github.com/LandonLloyd.png"
+              alt="A lovely picture of Landon Lloyd"
+            />
+            <h3>Landon Lloyd</h3>
+            <h4>Moderator</h4>
+          </div>
 
-        <div class="team__card">
-          <img
-            src="https://github.com/Shreyas44.png"
-            alt="A lovely picture of Shreyas44"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Shreyas44</h3>
-          <h4 class="team__card--role">Moderator</h4>
+          <div class="team__card">
+            <img
+              src="https://github.com/RavenclawFander05.png"
+              alt="A lovely picture of RavenclawFander"
+            />
+            <h3>RavenclawFander</h3>
+            <h4>Moderator</h4>
+          </div>
+
+          <div class="team__card" onclick="modcard('akshu')">
+            <img
+              src="https://github.com/SashoStoichkov.png"
+              alt="A lovely picture of Sasho Stoichkov"
+            />
+            <h3>Sasho Stoichkov</h3>
+            <h4>Moderator</h4>
+          </div>
+
+          <div class="team__card">
+            <img
+              src="https://github.com/Shreyas44.png"
+              alt="A lovely picture of Shreyas44"
+            />
+            <h3>Shreyas44</h3>
+            <h4>Moderator</h4>
+          </div>
+          <div class="team__card">
+            <img
+              src="https://github.com/Whisperdawn.png"
+              alt="A lovely picture of Whisperdawn"
+            />
+            <h3>Whisperdawn</h3>
+            <h4>Moderator</h4>
+          </div>
         </div>
-        <div class="team__card">
-          <img
-            src="https://github.com/Whisperdawn.png"
-            alt="A lovely picture of Whisperdawn"
-            class="team__card--img"
-          />
-          <h3 class="team__card--name">Whisperdawn</h3>
-          <h4 class="team__card--role">Moderator</h4>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
+
     <!-- Modcard -->
-    <div class="modcard__wrapper">
-      
-    </div>
-
-      <h1>Welcome to Carrigans Community 🔥</h1>
-    </header>
-
+    <div class="modcard__wrapper"></div>
   </body>
 </html>
