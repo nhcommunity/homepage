@@ -1,6 +1,6 @@
 # Homepage
 
-This repository contains the code for our communitiy's home page. The home page is built using basic HTML and CSS to lower the barrier of entry for contributing. Built with love by our community members, this page serves to encourage others to join our community!
+This repository contains the code for our community's home page. The home page is built using basic HTML and CSS to lower the barrier of entry for contributing. Built with love by our community members, this page serves to encourage others to join our community!
 
 ## Live Version
 
